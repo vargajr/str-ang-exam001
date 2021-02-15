@@ -1,0 +1,23 @@
+<div class="row my-2">
+    <div class="col-4 offset-11">
+        <form class="form-inline my-2 my-lg-0">
+            <input (keyup)="onKeyUpSearch($event)" class="form-control mr-sm-2" type="input" placeholder="Search by hero name">
+          </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th *ngFor="let col of cols" (click)="sortListBy(col.key)">{{ col.title }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let hero of heroList$ | async | filter:searchPhrase | sortBy:sortKey">
+                    <td *ngFor="let col of cols">{{ hero[col.key] }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

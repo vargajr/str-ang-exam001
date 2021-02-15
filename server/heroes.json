@@ -1,0 +1,53 @@
+{ "heroes" : 
+    [{
+        "id": 1,
+        "name": "Ravid Crossthwaite",
+        "superPower": "luctus rutrum",
+        "address": "United States"
+      }, {
+        "id": 2,
+        "name": "Esmeralda Henricsson",
+        "superPower": "sapien dignissim",
+        "address": "France"
+      }, {
+        "id": 3,
+        "name": "Derrick Lante",
+        "superPower": "cras",
+        "address": "Ukraine"
+      }, {
+        "id": 4,
+        "name": "Sheilakathryn Bantham",
+        "superPower": "amet",
+        "address": "Tunisia"
+      }, {
+        "id": 5,
+        "name": "Marilee Hardage",
+        "superPower": "mauris lacinia",
+        "address": "Morocco"
+      }, {
+        "id": 6,
+        "name": "Catharine Geddes",
+        "superPower": "aliquam sit amet",
+        "address": "Indonesia"
+      }, {
+        "id": 7,
+        "name": "Mariele Cogger",
+        "superPower": "turpis a",
+        "address": "South Korea"
+      }, {
+        "id": 8,
+        "name": "Roman Farries",
+        "superPower": "orci",
+        "address": "Macedonia"
+      }, {
+        "id": 9,
+        "name": "Horatio Franzetti",
+        "superPower": "purus sit amet",
+        "address": "Russia"
+      }, {
+        "id": 10,
+        "name": "Scottie Hansmann",
+        "superPower": "nulla",
+        "address": "Nigeria"
+      }]
+}
